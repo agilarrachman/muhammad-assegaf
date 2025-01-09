@@ -5354,6 +5354,20 @@ Created using IcoMoon - icomoon.io
 }
 
 /* Experience Style */
+#experience #experience-hima {
+  min-height: 313px;
+  background-image: url(../images/exp-hima.jpg);
+  background-size: cover;
+  background-position: center;
+   }
+
+#experience #experience-konteskapal {
+  min-height: 313px;
+  background-image: url(../images/exp-konteskapal.jpg);
+  background-size: cover;
+  background-position: bottom;
+   }
+
 #experience #experience1 {
   min-height: 313px;
   background-image: url(../images/experience\ 1.JPG);
@@ -5377,6 +5391,12 @@ Created using IcoMoon - icomoon.io
   background-image: url(../images/pengmas.jpg);
   background-size: cover;
   background-position-x: 30%; }
+
+#experience #experience-pmr {
+  min-height: 313px;
+  background-image: url(../images/exp-pmr.jpg);
+  background-size: cover;
+  background-position: center; }
 
 /* Experience Style */
 .cc-experience .cc-experience-header {

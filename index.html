@@ -573,7 +573,7 @@
                           data-aos="fade-right"
                           data-aos-offset="50"
                           data-aos-duration="500"
-                          id="sertif-managing"
+                          id="sertif-managing2"
                         ></div>
                         <div
                           class="row-md-9"
@@ -589,7 +589,7 @@
                             <p>
                               This certificate is issued by PJK3 Fleetnix, acknowledging participation and acquisition of knowledge about Managing Safe Work and Contractor Safety Management System at the K3 Training event. Managing Safe Work consists of training material that includes the implementation of managing and understanding workplace safety practices. Then about Contractor Safety Management System is CSMS is a comprehensive framework to ensure that all contractors involved in a company's projects have high safety standards. Therefore, this training involves not only theoretical material but also practical application and direct implementation of the knowledge acquired.
                             </p>
-                            <div class="outline-button" id="viewCertificate-">
+                            <div class="outline-button" id="viewCertificate-managing2">
                               View Certificate
                             </div>
                           </div>
@@ -1195,6 +1195,16 @@
       </div>
     </div>
 
+    <div class="popup" id="popup-managing2">
+      <div class="popup-content">
+        <div class="scrolled">
+          <img src="images/Sertifikat Pelatihan K3 2024_page-0001.jpg" alt="Certificate Image" />
+          <img src="images/Sertifikat Pelatihan K3 2024_page-0002.jpg" alt="Certificate Image" />
+        </div>
+        <button class="btn btn-primary" id="closePopup-managing2">Close</button>
+      </div>
+    </div>
+
     <div class="popup" id="popup1">
       <div class="popup-content">
         <div class="scrolled">
@@ -1202,7 +1212,7 @@
         </div>
         <button class="btn btn-primary" id="closePopup1">Close</button>
       </div>
-    </div>
+    </div>    
 
     <div class="popup" id="popup2">
       <div class="popup-content">
@@ -1252,6 +1262,10 @@
 
     <script>
       // Get elements
+      const viewCertificateButtonManaging2 = document.getElementById("viewCertificate-managing2");
+      const popupManaging2 = document.getElementById("popup-managing2");
+      const closePopupManaging2 = document.getElementById("closePopup-managing2");
+
       const viewCertificateButtonKebakaran = document.getElementById("viewCertificate-kebakaran");
       const popupKebakaran = document.getElementById("popup-kebakaran");
       const closePopupKebakaran = document.getElementById("closePopup-kebakaran");
@@ -1287,6 +1301,13 @@
       const viewCertificateButtonExperiencePMR = document.getElementById("viewCertificateExperience-pmr");
       const popupExperiencePMR = document.getElementById("popupExperience-pmr");
       const closePopupExperiencePMR = document.getElementById("closePopupExperience-pmr");
+
+      viewCertificateButtonManaging2.addEventListener("click", function () {
+        popupManaging2.style.display = "flex";
+      });
+      closePopupManaging2.addEventListener("click", function () {
+        popupManaging2.style.display = "none";
+      });
 
       viewCertificateButtonKebakaran.addEventListener("click", function () {
         popupKebakaran.style.display = "flex";
